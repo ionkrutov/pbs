@@ -222,11 +222,11 @@ func init() {
 	{
 		"timestamp":1619121423,
 		"pbs_version":"20.0.1",
-		"pbs_server":"vm-priboy",
+		"pbs_server":"vm-project_name",
 		"Jobs":{
-			"2007.vm-priboy":{
+			"2007.vm-project_name":{
 				"Job_Name":"nsleep",
-				"Job_Owner":"priboy@vm-priboy",
+				"Job_Owner":"project_name@vm-project_name",
 				"resources_used":{
 					"cpupercent":0,
 					"cput":"00:00:00",
@@ -237,18 +237,18 @@ func init() {
 				},
 				"job_state":"R",
 				"queue":"atom-sim",
-				"server":"vm-priboy",
+				"server":"vm-project_name",
 				"Checkpoint":"u",
 				"ctime":"Thu Apr 22 22:56:43 2021",
-				"Error_Path":"vm-priboy:/home/priboy/nsleep.e2007",
-				"exec_host":"vm-priboy/0",
-				"exec_vnode":"(vm-priboy:ncpus=1)",
+				"Error_Path":"vm-project_name:/home/project_name/nsleep.e2007",
+				"exec_host":"vm-project_name/0",
+				"exec_vnode":"(vm-project_name:ncpus=1)",
 				"Hold_Types":"n",
 				"Join_Path":"n",
 				"Keep_Files":"n",
 				"Mail_Points":"a",
 				"mtime":"Thu Apr 22 22:56:55 2021",
-				"Output_Path":"vm-priboy:/home/priboy/nsleep.o2007",
+				"Output_Path":"vm-project_name:/home/project_name/nsleep.o2007",
 				"Priority":0,
 				"qtime":"Thu Apr 22 22:56:43 2021",
 				"Rerunable":"True",
@@ -260,30 +260,30 @@ func init() {
 				},
 				"stime":"Thu Apr 22 22:56:43 2021",
 				"session_id":38459,
-				"jobdir":"/home/priboy",
+				"jobdir":"/home/project_name",
 				"substate":42,
 				"Variable_List":{
-					"PBS_O_HOME":"/home/priboy",
+					"PBS_O_HOME":"/home/project_name",
 					"PBS_O_LANG":"en_US.Utime_format-8",
-					"PBS_O_LOGNAME":"priboy",
+					"PBS_O_LOGNAME":"project_name",
 					"PBS_O_PATH":"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/pbs/bin",
 					"PBS_O_SHELL":"/bin/bash",
-					"PBS_O_WORKDIR":"/home/priboy",
+					"PBS_O_WORKDIR":"/home/project_name",
 					"PYTHON_SCRIPT":"myscript1.py",
 					"PBS_O_SYSTEM":"Linux",
 					"PBS_O_QUEUE":"workq",
-					"PBS_O_HOST":"vm-priboy"
+					"PBS_O_HOST":"vm-project_name"
 				},
-				"comment":"Job run at Thu Apr 22 at 22:56 on (vm-priboy:ncpus=1)",
+				"comment":"Job run at Thu Apr 22 at 22:56 on (vm-project_name:ncpus=1)",
 				"etime":"Thu Apr 22 22:56:43 2021",
 				"run_count":1,
 				"Submit_arguments":"sleep.pbs",
 				"project":"_pbs_project_default",
-				"Submit_Host":"vm-priboy"
+				"Submit_Host":"vm-project_name"
 			},
-			"2009.vm-priboy":{
+			"2009.vm-project_name":{
 				"Job_Name":"nsleep",
-				"Job_Owner":"priboy@vm-priboy",
+				"Job_Owner":"project_name@vm-project_name",
 				"resources_used":{
 					"cpupercent":0,
 					"cput":"00:00:00",
@@ -294,18 +294,18 @@ func init() {
 				},
 				"job_state":"R",
 				"queue":"atom-sim",
-				"server":"vm-priboy",
+				"server":"vm-project_name",
 				"Checkpoint":"u",
 				"ctime":"Thu Apr 22 22:56:45 2021",
-				"Error_Path":"vm-priboy:/home/priboy/nsleep.e2009",
-				"exec_host":"vm-priboy/2",
-				"exec_vnode":"(vm-priboy:ncpus=1)",
+				"Error_Path":"vm-project_name:/home/project_name/nsleep.e2009",
+				"exec_host":"vm-project_name/2",
+				"exec_vnode":"(vm-project_name:ncpus=1)",
 				"Hold_Types":"n",
 				"Join_Path":"n",
 				"Keep_Files":"n",
 				"Mail_Points":"a",
 				"mtime":"Thu Apr 22 22:56:55 2021",
-				"Output_Path":"vm-priboy:/home/priboy/nsleep.o2009",
+				"Output_Path":"vm-project_name:/home/project_name/nsleep.o2009",
 				"Priority":0,
 				"qtime":"Thu Apr 22 22:56:45 2021",
 				"Rerunable":"True",
@@ -317,30 +317,30 @@ func init() {
 				},
 				"stime":"Thu Apr 22 22:56:45 2021",
 				"session_id":38483,
-				"jobdir":"/home/priboy",
+				"jobdir":"/home/project_name",
 				"substate":42,
 				"Variable_List":{
-					"PBS_O_HOME":"/home/priboy",
+					"PBS_O_HOME":"/home/project_name",
 					"PBS_O_LANG":"en_US.Utime_format-8",
-					"PBS_O_LOGNAME":"priboy",
+					"PBS_O_LOGNAME":"project_name",
 					"PBS_O_PATH":"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/pbs/bin",
 					"PBS_O_SHELL":"/bin/bash",
-					"PBS_O_WORKDIR":"/home/priboy",
+					"PBS_O_WORKDIR":"/home/project_name",
 					"PYTHON_SCRIPT":"myscript2.py",
 					"PBS_O_SYSTEM":"Linux",
 					"PBS_O_QUEUE":"workq",
-					"PBS_O_HOST":"vm-priboy"
+					"PBS_O_HOST":"vm-project_name"
 				},
-				"comment":"Job run at Thu Apr 22 at 22:56 on (vm-priboy:ncpus=1)",
+				"comment":"Job run at Thu Apr 22 at 22:56 on (vm-project_name:ncpus=1)",
 				"etime":"Thu Apr 22 22:56:45 2021",
 				"run_count":1,
 				"Submit_arguments":"sleep.pbs",
 				"project":"_pbs_project_default",
-				"Submit_Host":"vm-priboy"
+				"Submit_Host":"vm-project_name"
 			},
-			"2010.vm-priboy":{
+			"2010.vm-project_name":{
 				"Job_Name":"nsleep",
-				"Job_Owner":"priboy@vm-priboy",
+				"Job_Owner":"project_name@vm-project_name",
 				"resources_used":{
 					"cpupercent":0,
 					"cput":"00:00:00",
@@ -351,18 +351,18 @@ func init() {
 				},
 				"job_state":"R",
 				"queue":"linopt-gates",
-				"server":"vm-priboy",
+				"server":"vm-project_name",
 				"Checkpoint":"u",
 				"ctime":"Thu Apr 22 22:56:45 2021",
-				"Error_Path":"vm-priboy:/home/priboy/nsleep.e2010",
-				"exec_host":"vm-priboy/3",
-				"exec_vnode":"(vm-priboy:ncpus=1)",
+				"Error_Path":"vm-project_name:/home/project_name/nsleep.e2010",
+				"exec_host":"vm-project_name/3",
+				"exec_vnode":"(vm-project_name:ncpus=1)",
 				"Hold_Types":"n",
 				"Join_Path":"n",
 				"Keep_Files":"n",
 				"Mail_Points":"a",
 				"mtime":"Thu Apr 22 22:56:55 2021",
-				"Output_Path":"vm-priboy:/home/priboy/nsleep.o2010",
+				"Output_Path":"vm-project_name:/home/project_name/nsleep.o2010",
 				"Priority":0,
 				"qtime":"Thu Apr 22 22:56:45 2021",
 				"Rerunable":"True",
@@ -374,26 +374,26 @@ func init() {
 				},
 				"stime":"Thu Apr 22 22:56:45 2021",
 				"session_id":38495,
-				"jobdir":"/home/priboy",
+				"jobdir":"/home/project_name",
 				"substate":42,
 				"Variable_List":{
-					"PBS_O_HOME":"/home/priboy",
+					"PBS_O_HOME":"/home/project_name",
 					"PBS_O_LANG":"en_US.Utime_format-8",
-					"PBS_O_LOGNAME":"priboy",
+					"PBS_O_LOGNAME":"project_name",
 					"PBS_O_PATH":"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/pbs/bin",
 					"PBS_O_SHELL":"/bin/bash",
-					"PBS_O_WORKDIR":"/home/priboy",
+					"PBS_O_WORKDIR":"/home/project_name",
 					"PYTHON_SCRIPT":"myscript3.py",
 					"PBS_O_SYSTEM":"Linux",
 					"PBS_O_QUEUE":"workq",
-					"PBS_O_HOST":"vm-priboy"
+					"PBS_O_HOST":"vm-project_name"
 				},
-				"comment":"Job run at Thu Apr 22 at 22:56 on (vm-priboy:ncpus=1)",
+				"comment":"Job run at Thu Apr 22 at 22:56 on (vm-project_name:ncpus=1)",
 				"etime":"Thu Apr 22 22:56:45 2021",
 				"run_count":1,
 				"Submit_arguments":"sleep.pbs",
 				"project":"_pbs_project_default",
-				"Submit_Host":"vm-priboy"
+				"Submit_Host":"vm-project_name"
 			}
 		}
 	}`
@@ -509,7 +509,7 @@ func TestRunPBSCommand(t *testing.T) {
 func TestParseQSUB(t *testing.T) {
 	var actualTask Task
 	expectedTask := Task{ProcessId: 1013}
-	ParseQSUB("1013.vm-priboy", &actualTask)
+	ParseQSUB("1013.vm-project_name", &actualTask)
 	CompareTasks(&expectedTask, &actualTask, t)
 }
 
