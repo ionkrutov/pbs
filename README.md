@@ -8,5 +8,6 @@ You need to have Python 3 installed to run the tests because it mimics the outpu
 The following commands are for running a test and analyzing the code they cover.
 ![go_test_v](gifs/go_test_v.gif)
 ![coverage_1](gifs/coverage_1.gif)
+
 After this command, a tab will automatically open in the browser window showing which parts of the code are covered by unit tests.
 ![html_cover](gifs/html_cover.gif)
